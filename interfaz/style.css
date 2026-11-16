@@ -1,0 +1,153 @@
+/* ============================================================
+   PROYECTO 2 - FUNDAMENTOS DE INTELIGENCIA ARTIFICIAL
+   Interfaz del chatbot de habitos saludables
+   ============================================================ */
+
+
+/* Estilo general de la pagina */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Contenedor principal del chatbot */
+.contenedor-chat {
+    width: 90%;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+
+/* Encabezado */
+.encabezado {
+    background-color: #2f855a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.encabezado h1 {
+    margin: 0 0 8px 0;
+    font-size: 26px;
+}
+
+.encabezado p {
+    margin: 0;
+    font-size: 15px;
+}
+
+
+/* Area donde aparecen los mensajes */
+.chat {
+    height: 400px;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+
+/* Estilo general de los mensajes */
+.mensaje {
+    max-width: 75%;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.mensaje p {
+    margin: 0;
+}
+
+
+/* Mensajes del chatbot */
+.mensaje.bot {
+    background-color: #e2e8f0;
+    color: #222;
+}
+
+
+/* Mensajes escritos por el usuario */
+.mensaje.usuario {
+    background-color: #2f855a;
+    color: white;
+    margin-left: auto;
+}
+
+
+/* Lista de ejemplos */
+.mensaje ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+
+/* Formulario inferior */
+.formulario {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #dddddd;
+    background-color: white;
+}
+
+
+/* Campo para escribir la pregunta */
+.formulario input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.formulario input:focus {
+    border-color: #2f855a;
+}
+
+
+/* Boton enviar */
+.formulario button {
+    margin-left: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2f855a;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #276749;
+}
+
+
+/* Adaptacion para pantallas pequenas */
+@media (max-width: 600px) {
+
+    .contenedor-chat {
+        width: 95%;
+    }
+
+    .chat {
+        height: 350px;
+    }
+
+    .mensaje {
+        max-width: 85%;
+    }
+
+    .formulario button {
+        padding: 12px 15px;
+    }
+}

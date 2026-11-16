@@ -1,0 +1,142 @@
+[
+  {
+    "n": 1,
+    "tipo": "Lista de habitos",
+    "pregunta": "¿Qué hábitos hay?",
+    "prolog": "Estos son los habitos saludables disponibles:\nbeber agua\ncomer frutas\ncomer verduras\ndormir bien\nmantener horario de sueno\nhacer ejercicio\ncaminar\nlavarse las manos\ncepillarse los dientes\nmantener higiene personal\nlimitar el azucar\nestirarse\nmeditar\nsocializar",
+    "llm": "Los hábitos registrados en la base de conocimiento son:\n\n- Beber agua\n- Comer frutas\n- Comer verduras\n- Dormir bien\n- Mantener horario de sueño\n- Hacer ejercicio\n- Caminar\n- Lavarse las manos\n- Cepillarse los dientes\n- Mantener higiene personal\n- Limitar el azúcar\n- Estirarse\n- Meditar\n- Socializar"
+  },
+  {
+    "n": 2,
+    "tipo": "Lista de categorias",
+    "pregunta": "¿Qué categorías de hábitos existen?",
+    "prolog": "Estas son las categorias de habitos:\n- alimentacion\n- hidratacion\n- descanso\n- actividad fisica\n- higiene\n- bienestar mental",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 3,
+    "tipo": "Habitos por categoria",
+    "pregunta": "¿Qué hábitos son de descanso?",
+    "prolog": "Habitos encontrados:\ndormir bien\nmantener horario de sueno",
+    "llm": "Los hábitos que pertenecen a la categoría de descanso son:\n- Dormir bien\n- Mantener horario de sueño"
+  },
+  {
+    "n": 4,
+    "tipo": "Habitos por categoria",
+    "pregunta": "¿Qué hábitos son de actividad física?",
+    "prolog": "Habitos encontrados:\nhacer ejercicio\ncaminar\nestirarse",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 5,
+    "tipo": "Es saludable",
+    "pregunta": "¿Es saludable beber agua?",
+    "prolog": "Si, es un habito saludable.",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 6,
+    "tipo": "Beneficios",
+    "pregunta": "¿Qué beneficios tiene hacer ejercicio?",
+    "prolog": "Beneficios encontrados:\ncondicion fisica\nbienestar general\nreduccion del estres",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 7,
+    "tipo": "Beneficios",
+    "pregunta": "Beneficios de dormir bien",
+    "prolog": "Beneficios encontrados:\ndescanso\nrecuperacion",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 8,
+    "tipo": "Frecuencia",
+    "pregunta": "¿Cuántas veces al día debo cepillarme los dientes?",
+    "prolog": "Sobre cepillarse los dientes: Dos veces al dia, durante unos 2 minutos cada vez.",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 9,
+    "tipo": "Frecuencia",
+    "pregunta": "¿Cuántas horas debo dormir?",
+    "prolog": "Sobre dormir bien: Los adultos necesitan entre 7 y 9 horas de sueno por noche.",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 10,
+    "tipo": "Frecuencia",
+    "pregunta": "¿Cuánta agua debo tomar al día?",
+    "prolog": "Sobre beber agua: Se recomienda tomar agua a lo largo del dia; como referencia general, cerca de 2 litros diarios en adultos.",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 11,
+    "tipo": "Prevencion",
+    "pregunta": "¿Qué previene lavarse las manos?",
+    "prolog": "lavarse las manos ayuda a prevenir:\n- infecciones",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 12,
+    "tipo": "Prevencion",
+    "pregunta": "¿Qué hábitos ayudan a prevenir la caries?",
+    "prolog": "Habitos que ayudan a prevenir caries:\n- cepillarse los dientes\n- limitar el azucar",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 13,
+    "tipo": "Habitos por beneficio",
+    "pregunta": "¿Qué hábitos ayudan al bienestar general?",
+    "prolog": "Habitos que ayudan a: bienestar general\n- caminar\n- hacer ejercicio",
+    "llm": "Los hábitos que ayudan al bienestar general son **hacer ejercicio** y **caminar**."
+  },
+  {
+    "n": 14,
+    "tipo": "Categoria de un habito",
+    "pregunta": "¿A qué categoría pertenece caminar?",
+    "prolog": "caminar pertenece a la categoria: actividad fisica",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 15,
+    "tipo": "Regla: relacionados",
+    "pregunta": "¿Qué hábitos están relacionados con comer frutas?",
+    "prolog": "Habitos relacionados con comer frutas (misma categoria):\n- comer verduras\n- limitar el azucar",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 16,
+    "tipo": "Regla: multiple",
+    "pregunta": "¿Qué hábitos tienen más de un beneficio?",
+    "prolog": "Habitos que tienen mas de un beneficio:\n- caminar\n- dormir bien\n- hacer ejercicio\n- meditar",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 17,
+    "tipo": "Descripcion",
+    "pregunta": "¿En qué consiste meditar?",
+    "prolog": "meditar: Consiste en dedicar un tiempo a la atencion plena o a la respiracion consciente para calmar la mente.",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 18,
+    "tipo": "Fuera de la base",
+    "pregunta": "¿Es saludable jugar videojuegos todo el día?",
+    "prolog": "Ese habito no se encuentra en la base de conocimiento.",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 19,
+    "tipo": "Fuera de la base",
+    "pregunta": "Para bajar de peso, ¿qué hábitos me recomiendas?",
+    "prolog": "No pude comprender la pregunta o no tengo esa informacion.\nPruebe con preguntas como: \"que habitos hay\", \"es saludable beber agua\",\n\"que beneficios tiene hacer ejercicio\" o \"que habitos son de descanso\".",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  },
+  {
+    "n": 20,
+    "tipo": "Fuera de la base",
+    "pregunta": "¿Sirve la vitamina C para prevenir el resfriado?",
+    "prolog": "No pude comprender la pregunta o no tengo esa informacion.\nPruebe con preguntas como: \"que habitos hay\", \"es saludable beber agua\",\n\"que beneficios tiene hacer ejercicio\" o \"que habitos son de descanso\".",
+    "llm": "[ERROR] Error HTTP 429 del proveedor: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede"
+  }
+]

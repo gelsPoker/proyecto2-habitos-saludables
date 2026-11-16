@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chatbot de Hábitos Saludables</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="contenedor-chat">
+
+        <header class="encabezado">
+            <h1>Chatbot de Hábitos Saludables</h1>
+            <p>
+                Consulta información general sobre hábitos saludables.
+            </p>
+        </header>
+
+        <section class="chat" id="chat">
+
+            <div class="mensaje bot">
+                <p>
+                    ¡Hola! Soy un chatbot sobre hábitos saludables.
+                    Puedes hacerme una pregunta.
+                </p>
+            </div>
+
+            <div class="mensaje bot">
+                <p>Por ejemplo:</p>
+
+                <ul>
+                    <li>que habitos hay</li>
+                    <li>que habitos son de descanso</li>
+                    <li>es saludable beber agua</li>
+                    <li>que beneficios tiene hacer ejercicio</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <form class="formulario" id="formulario">
+
+            <input
+                type="text"
+                id="pregunta"
+                placeholder="Escribe tu pregunta..."
+                autocomplete="off"
+                required
+            >
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
